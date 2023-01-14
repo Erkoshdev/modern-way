@@ -1,0 +1,277 @@
+body {
+  box-sizing: border-box;
+}
+
+.scroll-locked {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+svg, img {
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-block;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.absolute-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.4);
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.overlay.show {
+  display: block;
+}
+
+
+//***************form-control****************
+.form-control {
+  width: 100%;
+  padding: 0;
+  height: initial;
+  line-height: initial;
+  border: none;
+  border-radius: initial;
+  transition: initial;
+  background: initial;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 16px 25px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 135%;
+  color: #252831;
+  border: 1px solid #CECECE;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.form-control input::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 135%;
+  color: #7A7A7A;
+}
+
+.form-control small {
+  display: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #B8213C;
+  margin-left: 25px;
+}
+
+.form-control.invalid {
+  input, textarea {
+    border-color: #b8213c;
+  }
+  small {
+    display: block;
+  }
+}
+
+.form-control textarea {
+  width: 100%;
+  padding: 16px 25px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 135%;
+  color: #252831;
+  border: 1px solid #CECECE;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.form-control textarea:focus {
+  outline: none;
+}
+
+.form-control textarea::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 135%;
+  color: #7A7A7A;
+}
+
+.form-container b {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  color: #252831;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+
+//***************buttons****************
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid;
+  transition: 0.2s ease;
+}
+
+.btn-plain {
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-sm {
+  padding: 6.5px 16px;
+}
+
+.btn-md {
+  padding: 14px 25px;
+}
+
+.btn-stroke {
+  border-color: #B8213C;
+  background: transparent;
+  color: #B8213C;
+}
+
+.btn-danger {
+  background: #B8213C;
+  border-color: #B8213C;
+}
+
+
+
+//***************radio form****************
+.radio-form {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 135%;
+  color: #000000;
+  width: fit-content;
+}
+
+.radio-form input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.radio-form .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border: 1px solid #7A7A7A;
+  border-radius: 50%;
+}
+
+.radio-form input:checked ~ .checkmark {
+  background: #B8213C;
+  border-color: #B8213C;
+}
+
+//***************input file form****************
+.upload-form {
+  width: 47px;
+  height: 47px;
+  border: 1px solid #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload-form input {
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.upload-form.loaded {
+  border-color: #29417E;
+}
+
+.upload-form span {
+  display: none;
+}
+
+.upload-form span svg {
+  width: 20px;
+  height: auto;
+}
+
+.upload-form.loaded {
+  i {
+    display: none;
+  }
+  span {
+    display: block;
+  }
+}

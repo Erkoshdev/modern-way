@@ -1,0 +1,12 @@
+.header {
+  z-index: 10;
+}
+
+.promo, .main-page .country-section {
+  z-index: 5;
+}
+
+.promo ~ .container {
+  z-index: 6;
+  position: relative;
+}
