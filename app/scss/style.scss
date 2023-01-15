@@ -789,7 +789,7 @@ body {
 .description-container-img img {
   width: 100%;
   height: 100%;
-  max-height: 500px;
+  max-height: 700px;
   object-fit: cover;
 }
 
@@ -1417,6 +1417,460 @@ body {
 
 .client-arrows-xs {
   display: none;
+}
+
+.page-title {
+  padding-left: 70px;
+}
+
+.page-title h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 65px;
+  color: #252831;
+  margin-top: 120px;
+}
+
+.page-title .breadcrumb {
+  margin-top: 80px;
+}
+
+.page-title .breadcrumb + h2 {
+  margin-top: 20px;
+}
+
+.start-history {
+  padding-top: 56px;
+}
+
+.about-advantage {
+  padding-top: 53px;
+}
+
+.about-page .about-slider {
+  padding-top: 58px;
+}
+
+.working-with-us {
+  padding-top: 62px;
+}
+
+.our-ability {
+  padding-top: 45px;
+}
+
+.guaranty-section {
+  padding-top: 127px;
+}
+
+.guaranty-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.guaranty-item {
+  width: 50%;
+  padding: 0 85px 65px 85px;
+}
+
+.guaranty-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.guaranty-item b {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #252831;
+  margin-top: 30px;
+  display: block;
+}
+
+.guaranty-item p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #7A7A7A;
+  margin-top: 20px;
+}
+
+.additional-info {
+  padding-top: 115px;
+}
+
+.about-page .information-section {
+  padding-top: 54px;
+}
+
+.information-card-list {
+  width: calc(100% + 30px);
+  margin: 0 -15px;
+}
+
+.information-card {
+  width: calc(25% - 30px);
+  margin: 0 15px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 50px;
+  height: auto;
+  justify-content: space-between;
+}
+
+.information-card b {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.information-card img {
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.information-card .btn {
+  margin: 0 auto;
+}
+
+.about-page .service-container {
+  margin-top: 100px;
+}
+
+.service-container {
+  background: #FFFFFF;
+  padding: 50px 70px 60px;
+}
+
+.service-container h6 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 135%;
+  color: #252831;
+  margin-bottom: 37px;
+}
+
+.service-list {
+  margin: -10px -7.5px ;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  margin: 10px 7.5px;
+  padding: 15px 25px;
+  background: #F4F4F4;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #7A7A7A;
+}
+
+.about-page .contact-promo {
+  padding-top: 49px;
+  padding-bottom: 132px;
+}
+
+.contact-item-title {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item-title b {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #252831;
+}
+
+.contact-item-title p {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.contact-item-desc {
+  margin-top: 23px;
+}
+
+.contact-item-desc p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7A7A7A;
+}
+
+.contact-item-desc p + p {
+  margin-top: 15px;
+}
+
+.icon-pin {
+  background: url("../img/icon/pin.svg");
+  width: 30px;
+  height: 30px;
+}
+
+.icon-email {
+  background: url("../img/icon/email.svg");
+  width: 30px;
+  height: 30px;
+}
+
+.icon-phone {
+  background: url("../img/icon/phone.svg");
+  width: 30px;
+  height: 30px;
+}
+
+.contact-item {
+  display: block;
+}
+
+.description-container-caption .contact-item + .contact-item {
+  margin-top: 11px;
+}
+
+.description-container-caption .contact-item:nth-of-type(2) {
+  margin-bottom: 32px;
+}
+
+.vacancy-section {
+  padding-top: 99px;
+}
+
+.vacancy-card-list {
+  margin: -24px -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vacancy-card {
+  width: calc(33.3% - 30px);
+  margin: 24px 15px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.vacancy-card-img {
+  height: 215px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.vacancy-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 1;
+}
+
+.vacancy-card-caption {
+  background: #fff;
+  padding: 34px 53px 54px 52px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.vacancy-card-caption b {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #252831;
+  margin-bottom: 35px;
+}
+
+.vacancy-card-caption p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #7A7A7A;
+  margin-bottom: 52px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.vacancy-card-caption .btn {
+  margin: auto auto 0 auto;
+}
+
+.vacancy-section-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.vacancy-section-tools .dropdown-toggle {
+  border: 1px solid #CECECE;
+  border-radius: 100px;
+  background: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #7A7A7A;
+  margin-left: 53px;
+  padding: 2.5px 20px;
+}
+
+.dropdown-toggle::after {
+  content: url("../img/icon/chevron-down-xs.svg");
+  margin-left: 15px;
+  vertical-align: initial;
+  border: none;
+}
+
+.vacancy-section-tools .dropdown-menu {
+  border-radius: 20px;
+}
+
+.vacancy-feedback-container {
+  margin-top: 100px;
+  background: #fff;
+  padding: 55px 35px 60px;
+}
+
+.feedback-container-title .visible-xs {
+  display: none;
+}
+
+.vacancy-feedback-form {
+  display: flex;
+  margin: 40px -10px 0 -10px;
+  flex-wrap: wrap;
+}
+
+.vacancy-feedback-form-item {
+  width: calc(20% - 20px);
+  margin: 0 10px;
+}
+
+.vacancy-feedback-form .btn {
+  white-space: nowrap;
+}
+
+.vacancy-page .contact-promo {
+  margin-top: 65px;
+}
+
+.vacancy-page {
+  padding-bottom: 200px;
+}
+
+.next-vacancy-page {
+  display: none;
+}
+
+.vacancy-detail-page .page-content {
+  padding-top: 80px;
+}
+
+.vacancy-detail + .vacancy-detail {
+  margin-top: 70px;
+}
+
+.vacancy-detail-title p {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 20px;
+  color: #252831;
+}
+
+.vacancy-detail-title span {
+  color: #B8213C;
+}
+
+.vacancy-detail-content {
+  margin-top: 50px;
+}
+
+.vacancy-detail-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #252831;
+}
+
+.vacancy-detail-content b {
+  font-weight: 500;
+}
+
+.vacancy-detail-content li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #252831;
+  position: relative;
+  padding-left: 25px;
+}
+
+.vacancy-detail-content li:before {
+  content: '';
+  background: #252831;
+  width: 2.5px;
+  height: 2.5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+}
+
+.vacancy-detail-page .feedback-container {
+  margin-top: 90px;
+  padding: 44px 70px 56px 69px;
+}
+
+.vacancy-detail-feedback-tools {
+  display: flex;
+  align-items: center;
+}
+
+.vacancy-detail-feedback-tools b {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  color: #252831;
+  white-space: nowrap;
+}
+
+.vacancy-detail-feedback-tools .upload-form {
+  margin-left: 20px;
+}
+
+.vacancy-detail-feedback-tools .btn-danger {
+  margin-left: 20px;
+}
+
+.vacancy-detail-page .contact-promo {
+  margin-top: 49px;
+}
+
+.vacancy-detail-page {
+  padding-bottom: 130px;
 }
 
 

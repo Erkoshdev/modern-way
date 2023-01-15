@@ -140,6 +140,31 @@
   .footer-col {
     margin: 0 10px;
   }
+  .vacancy-card-caption {
+    padding: 30px 20px;
+  }
+  .vacancy-card-caption b {
+    margin-bottom: 20px;
+  }
+  .vacancy-card-caption p {
+    margin-bottom: 25px;
+  }
+  .vacancy-feedback-form-item {
+    width: calc(25% - 20px);
+  }
+  .vacancy-feedback-form-item:last-child {
+    margin-left: auto;
+    margin-top: 30px;
+  }
+  .vacancy-detail-feedback-tools {
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 15px;
+  }
+  .vacancy-detail-feedback-tools .btn {
+    margin-top: 0;
+    margin-left: 20px;
+  }
 }
 
 
@@ -471,6 +496,51 @@
   }
   .faq-section {
     padding: 40px 0 60px 0;
+  }
+  .guaranty-item {
+    padding: 0 25px 65px 25px;
+  }
+  .information-card-list {
+    flex-wrap: wrap;
+  }
+  .information-card {
+    width: calc(50% - 30px);
+    margin: 15px;
+  }
+  .page-title h2 {
+    font-size: 30px;
+    line-height: 130%;
+  }
+  .vacancy-section {
+    padding-top: 60px;
+  }
+  .vacancy-card {
+    width: calc(50% - 30px);
+  }
+  .vacancy-card-caption {
+    padding: 20px;
+  }
+  .vacancy-card-caption b {
+    margin-bottom: 15px;
+  }
+  .vacancy-card-caption p {
+    margin-bottom: 35px;
+  }
+  .vacancy-feedback-form-item {
+    width: calc(33.3% - 20px);
+    margin: 10px;
+  }
+  .vacancy-feedback-form-item:last-child {
+    width: fit-content;
+  }
+  .vacancy-detail-feedback-tools {
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 15px;
+  }
+  .vacancy-detail-feedback-tools .btn {
+    margin-top: 0;
+    margin-left: 20px;
   }
 }
 
@@ -852,14 +922,16 @@
     margin-top: 28px;
   }
   .description-container {
-    display: block;
+    flex-direction: column;
   }
   .description-container-img {
     width: 100%;
-    height: 145px;
+    height: 170px;
+    order: 1;
   }
   .description-container-caption {
     padding: 33px 30px 45px 37px;
+    order: 2;
   }
   .description-container-title h5 {
     font-size: 16px;
@@ -1191,9 +1263,241 @@
   .form2-tools .privacy-policy-link {
     margin-top: 22px;
   }
+  .page-title {
+    padding-left: 0;
+  }
+  .page-title .breadcrumb {
+    margin-top: 50px;
+  }
+  .breadcrumb {
+    margin: 0 -11px;
+  }
+  .breadcrumb li+li:before {
+    width: 12px;
+    height: 12px;
+    left: -17px;
+  }
+  .breadcrumb li {
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0 11px;
+  }
+  .breadcrumb a {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .page-title .breadcrumb + h2 {
+    margin-top: 13px;
+  }
+  .page-title h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .page-title h2 {
+    margin-top: 83px;
+  }
+  .start-history {
+    padding-top: 41px;
+  }
+  .about-advantage {
+    padding-top: 45px;
+  }
+  .about-page .about-slider {
+    padding-top: 48px;
+  }
+  .guaranty-section {
+    padding-top: 116px;
+  }
+  .guaranty-item {
+    padding: 0;
+    width: 100%;
+  }
+  .guaranty-item + .guaranty-item {
+    margin-top: 70px;
+  }
+  .guaranty-item b {
+    font-size: 12px;
+    line-height: 140%;
+    margin-top: 20px;
+  }
+  .guaranty-item p {
+    font-size: 10px;
+    line-height: 140%;
+    margin-top: 14px;
+  }
+  .guaranty-item img {
+    width: 50px;
+    height: 50px;
+  }
+  .information-card-list {
+    width: 100%;
+    margin: 0;
+  }
+  .information-card {
+    margin: 0;
+    width: 100%;
+  }
+  .information-card b {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 33px;
+  }
+  .information-card img {
+    max-width: 136px;
+  }
+  .service-container {
+    padding: 40px 27px 57px;
+  }
+  .service-container h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .service-item {
+    padding: 10px 20px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .contact-item-title i {
+    width: 18px;
+    height: 18px;
+  }
+  .contact-item-title b {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 8px;
+  }
+  .contact-item-title p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 8px;
+  }
+  .contact-item-desc p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .contact-item-desc p+p {
+    margin-top: 12px;
+  }
+  .vacancy-section {
+    padding-top: 63px;
+  }
+  .vacancy-card-list {
+    margin: 0;
+  }
+  .vacancy-card {
+    width: 100%;
+    margin: 0;
+  }
+  .vacancy-card-img {
+    height: 185px;
+  }
+  .vacancy-card-caption {
+    padding: 30px 25px 35px;
+  }
+  .vacancy-card-caption b {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+  }
+  .vacancy-card-caption p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  .vacancy-card + .vacancy-card {
+    margin-top: 40px;
+  }
+  .vacancy-section-tools {
+    .pagination {
+      display: none;
+    }
+    .dropdown {
+      display: none;
+    }
+    .next-vacancy-page {
+      display: flex;
+    }
+  }
+  .vacancy-feedback-container {
+    margin-top: 80px;
+    padding: 34px 25px 45px;
+  }
+  .vacancy-feedback-container .feedback-container-title h5 {
+    display: none;
+  }
+  .vacancy-feedback-container .feedback-container-title h5.visible-xs {
+    display: block;
+  }
+  .vacancy-feedback-form {
+    display: block;
+    margin: 37px 0 0 0;
+  }
+  .vacancy-feedback-form-item {
+    width: 100%;
+    margin: 0;
+  }
+  .vacancy-feedback-form-item + .vacancy-feedback-form-item {
+    margin-top: 7px;
+  }
+  .form-control input {
+    padding: 11px 25px;
+  }
+  .vacancy-feedback-form .btn {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .vacancy-detail-page .page-content {
+    padding-top: 67px;
+  }
+  .vacancy-detail-title p {
+    font-size: 18px;
+    line-height: 12px;
+  }
+  .vacancy-detail-content {
+    margin-top: 30px;
+  }
+  .vacancy-detail-content p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .vacancy-detail+.vacancy-detail {
+    margin-top: 60px;
+  }
+  .vacancy-detail-content li {
+    font-size: 10px;
+    line-height: 15px;
+    padding-left: 18px;
+  }
+  .vacancy-detail-content li:before {
+    width: 1.5px;
+    height: 1.5px;
+    top: 6px;
+    left: 8px;
+  }
+  .vacancy-detail-page .feedback-container {
+    margin-top: 60px;
+    padding: 34px 25px 51px;
+  }
+  .vacancy-detail-feedback-tools {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .vacancy-detail-feedback-tools .btn-danger {
+    margin-left: 0;
+    width: 100%;
+  }
+  .vacancy-detail-feedback-tools b {
+    font-size: 10px;
+    line-height: 135%;
+  }
 }
 
 
+//hover
 @media (hover: hover) {
   .btn-stroke:hover {
     background: #b8213c;
@@ -1224,11 +1528,14 @@
 
 }
 
+
+//additional
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1200px;
   }
 }
+
 
 @media (min-width: 1240px) and (max-width: 1300px) {
   .product-slider-next, .product-slider-prev, .news-slider-prev, .news-slider-next {
@@ -1259,6 +1566,7 @@
     left: -25px;
   }
 }
+
 
 @media (min-width: 1200px) and (max-width: 1239px) {
   .product-slider-next, .product-slider-prev, .news-slider-prev, .news-slider-next {

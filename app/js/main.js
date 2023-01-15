@@ -42,3 +42,19 @@ $('.footer-col-title p').click(function (){
   $(this).toggleClass('active')
   $(this).closest('.footer-col-title').next('.footer-col-list').slideToggle()
 })
+
+
+//phone-mask
+$(document).ready(function () {
+  $('.phone-mask').mask('+7 000 000 0000');
+})
+
+
+//input type file check
+$('input:file').change(function () {
+  if ($(this).val() !== '') {
+    $(this).closest('.upload-form').addClass('loaded');
+  } else {
+    $(this).closest('.upload-form').removeClass('loaded');
+  }
+})
