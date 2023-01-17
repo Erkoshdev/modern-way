@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+  <div class="page-wrapper contact-page">
+    <div class="page-title">
+      <div class="container">
+        <h2>Контакты</h2>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="container">
+        <ul class="nav contact-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#contact_1">Алматы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#contact_2">Москва</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#contact_3">Екатеринбург</a>
+          </li>
+        </ul>
+        <div class="tab-content contact-tabs-content">
+          <div class="tab-pane container active" id="home">...</div>
+          <div class="tab-pane container fade" id="menu1">...</div>
+          <div class="tab-pane container fade" id="menu2">...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modals">
+  <div class="modal fade" id="form1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="btn-plain close-modal" data-dismiss="modal">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                  d="M30 11.75L28.25 10L20 18.25L11.75 10L10 11.75L18.25 20L10 28.25L11.75 30L20 21.75L28.25 30L30 28.25L21.75 20L30 11.75Z"
+                  fill="#CECECE"/>
+            </svg>
+          </button>
+          <div class="modal-title">
+            <h6>Заполните форму</h6>
+            <p>Мы свяжемся с вами в ближайшее время</p>
+          </div>
+          <div class="modal-inner">
+            <form action="#">
+              <div class="form-control">
+                <input type="text" placeholder="Ваше имя">
+                <small>Error text</small>
+              </div>
+              <div class="form-control">
+                <input class="phone-mask" type="text" placeholder="Ваш телефон">
+                <small>Error text</small>
+              </div>
+              <button class="btn btn-md btn-danger">Оставить заявку</button>
+              <div class="privacy-policy-link">
+                <p>Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="form2">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="btn-plain close-modal" data-dismiss="modal">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                  d="M30 11.75L28.25 10L20 18.25L11.75 10L10 11.75L18.25 20L10 28.25L11.75 30L20 21.75L28.25 30L30 28.25L21.75 20L30 11.75Z"
+                  fill="#CECECE"/>
+            </svg>
+          </button>
+          <div class="modal-title">
+            <h6>Заполните форму для быстрого расчета</h6>
+          </div>
+          <div class="modal-inner">
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-control">
+                    <input type="text" placeholder="Ваше имя">
+                    <small>Error text</small>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-control">
+                    <input class="phone-mask" type="text" placeholder="Ваш телефон">
+                    <small>Error text</small>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-control">
+                    <input type="text" placeholder="Откуда - Куда">
+                    <small>Error text</small>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-control">
+                    <input type="text" placeholder="Габариты (объем, вес)">
+                    <small>Error text</small>
+                  </div>
+                </div>
+                <div class="form2-tools">
+                  <div class="form-container">
+                    <b>Загрузите файлы</b>
+                    <div class="form-upload-wrapper">
+                      <div class="upload-form-container">
+                        <!--при загурзке файла добавляется класс "loaded" и менятеся стиль, js прописан внизу страницы-->
+                        <div class="upload-form">
+                          <input type="file">
+                          <i class="icon icon-plus"></i>
+                          <span>
+                      <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.33337 4.33333L4.66671 7.66667L11.3334 1" stroke="#29417E" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </span>
+                        </div>
+                        <div class="upload-form">
+                          <input type="file">
+                          <i class="icon icon-plus"></i>
+                          <span>
+                      <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.33337 4.33333L4.66671 7.66667L11.3334 1" stroke="#29417E" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </span>
+                        </div>
+                        <div class="upload-form">
+                          <input type="file">
+                          <i class="icon icon-plus"></i>
+                          <span>
+                      <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.33337 4.33333L4.66671 7.66667L11.3334 1" stroke="#29417E" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </span>
+                        </div>
+                      </div>
+                      <button class="btn btn-md btn-danger">Оставить заявку</button>
+                    </div>
+                    <div class="privacy-policy-link">
+                      <p>Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/libs.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+</script>
+</body>
+</html>
