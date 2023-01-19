@@ -286,7 +286,6 @@ ul {
 //***************breadcrumb****************
 .breadcrumb {
   padding: 0;
-  margin: 0 -20px;
   background: initial;
   border-radius: initial;
 }
@@ -304,9 +303,12 @@ ul {
   font-size: 14px;
   line-height: 20px;
   color: #252831;
-  margin: 0 20px;
   position: relative;
   display: inline-block;
+}
+
+.breadcrumb li + li {
+  padding-left: 40px;
 }
 
 .breadcrumb li + li:before {
@@ -315,7 +317,7 @@ ul {
   width: 16px;
   height: 16px;
   position: absolute;
-  left: -28px;
+  left: 12px;
   top: 50%;
   transform: translateY(-50%);
 }
