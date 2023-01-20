@@ -712,7 +712,7 @@
     margin-top: 10px;
   }
   .cargo-types-page .page-content {
-    padding-top: 60px;
+    padding: 60px 0 100px 0;
   }
   .product-grid {
     gap: 20px 15px;
@@ -752,6 +752,9 @@
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
+  }
+  .heating-page .product-section {
+    padding-bottom: 0;
   }
 }
 
@@ -2263,7 +2266,7 @@
     padding-top: 60px;
   }
   .cargo-types-page .page-content {
-    padding-top: 40px;
+    padding: 40px 0 80px 0;
   }
   .product-grid {
     display: block;
@@ -2280,6 +2283,18 @@
   }
   .cargo-types-page .service-container {
     margin-top: 60px;
+  }
+  .cargo-types-page .containers-section {
+    margin-top: 60px;
+  }
+  .heating-page .product-section {
+    padding-bottom: 0;
+  }
+  .heating-page .about-section {
+    padding-top: 0;
+  }
+  .order-reason {
+    margin-top: 40px;
   }
 }
 
