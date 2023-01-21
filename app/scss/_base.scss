@@ -166,6 +166,10 @@ ul {
   transition: 0.2s ease;
 }
 
+.btn span + i {
+  margin-left: 16px;
+}
+
 .btn-plain {
   border: none;
   background: transparent;
@@ -197,6 +201,12 @@ ul {
   border-color: #7A7A7A;
   background: transparent;
   color: #7A7A7A;
+}
+
+.btn-stroke-white {
+  border-color: #ffffff;
+  background: transparent;
+  color: #ffffff;
 }
 
 

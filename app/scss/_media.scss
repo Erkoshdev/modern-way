@@ -189,6 +189,22 @@
   .card-content {
     min-height: 500px;
   }
+  .feedback-card-xs {
+    padding: 20px;
+  }
+  .export-bg {
+    width: 100%;
+    height: auto;
+    margin-top: -70px;
+  }
+  .export-page .containers-section {
+    padding-top: 90px;
+  }
+  .exporter-item .exporter-data {
+    font-size: 12px;
+    line-height: 140%;
+  }
+
 }
 
 
@@ -734,19 +750,16 @@
     min-height: 170px;
     min-width: 33.3%;
   }
-
   .product-grid .product-card:nth-of-type(1) {
     grid-row-start: 1;
     grid-row-end: 2;
   }
-
   .product-grid .product-card:nth-of-type(7) {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 4;
   }
-
   .product-grid .product-card:nth-of-type(8) {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -756,6 +769,82 @@
   .heating-page .product-section {
     padding-bottom: 0;
   }
+  .railway-bg {
+    margin-top: -20px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+  }
+  .feedback-card-xs {
+    padding: 30px;
+  }
+  .country-list .col {
+    flex-basis: initial;
+  }
+  .country-list .col + .col {
+    margin-top: 30px;
+  }
+  .feedback-card-xs .promo-caption-detail {
+    margin-top: 30px;
+  }
+  .service-page .country-card {
+    flex-direction: row;
+  }
+  .service-page .country-card-img {
+    height: 100%;
+    width: 250px;
+  }
+  .multimodal-bg {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+  .multimodal-page .promo-caption {
+    position: relative;
+    z-index: 1;
+  }
+  .export-bg {
+    width: 100%;
+    height: auto;
+    margin-right: -100px;
+  }
+  .export-page .containers-section {
+    padding-top: 90px;
+  }
+  .export-page .promo-animation {
+    margin-right: -50px;
+  }
+  .export-page .promo-card-caption {
+    padding: 20px;
+  }
+  .service-page .card-section {
+    margin-top: 80px;
+  }
+  .export-page .stage-section {
+    margin-top: 80px;
+  }
+  .stage-list:before {
+    width: calc(100% - 135px);
+  }
+  .stage-item p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .exporter-item .exporter-data {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .exporter-list {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .exporter-list-scroll-container {
+    width: 1000px;
+  }
+  .export-page .about-section {
+    padding-top: 80px;
+  }
+
 }
 
 
@@ -2296,6 +2385,131 @@
   .order-reason {
     margin-top: 40px;
   }
+  .service-page .promo-animation {
+    position: static;
+  }
+  .promo-caption {
+    padding: 65px 0 30px 0;
+  }
+  .country-list .col + .col {
+    margin-top: 30px;
+  }
+  .service-page .card-section {
+    margin-top: 60px;
+  }
+  .service-page .client-section + .client-section {
+    margin-top: 0;
+  }
+  .service-page .faq-section {
+    padding-top: 0;
+  }
+  .multimodal-bg {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+  .multimodal-page .promo-caption {
+    position: relative;
+    z-index: 1;
+  }
+  .multimodal-page .country-list {
+    margin-top: 100px;
+  }
+  .service-page .country-list .col {
+    flex-basis: initial;
+  }
+  .feedback-card-xs {
+    padding: 40px 20px;
+  }
+  .multimodal-page .about-section {
+    padding-top: 70px;
+  }
+  .service-page .services-section {
+    margin-top: 70px;
+  }
+  .multimodal-page .containers-section {
+    padding-top: 0;
+  }
+  .multimodal-page .about-section {
+    padding-top: 0;
+  }
+  .export-bg {
+    width: 100%;
+    height: auto;
+    margin-top: -80px;
+  }
+  .promo-card-section .col {
+    flex-basis: initial;
+  }
+  .promo-card-section .col + .col {
+    margin-top: 30px;
+  }
+  .export-page .promo-card-caption {
+    padding: 20px;
+  }
+  .promo-card-caption h6 {
+    font-size: 20px;
+  }
+  .export-page .stage-section {
+    margin-top: 60px;
+  }
+  .stage-list {
+    display: block;
+  }
+  .stage-list:before {
+    content: none;
+  }
+  .stage-item {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .stage-item p {
+    margin-top: 7px;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 15px;
+  }
+  .stage-number {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .stage-list+.stage-list {
+    margin-top: 20px;
+  }
+  .stage-item + .stage-item {
+    margin-top: 20px;
+  }
+  .export-page .containers-section {
+    padding-top: 60px;
+  }
+  .export-page .export-regions {
+    margin-top: 60px;
+  }
+  .exporter-list {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .exporter-list-scroll-container {
+    width: 900px;
+  }
+  .exporter-head .exporter-data {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .exporter-item .exporter-data {
+    font-size: 10px;
+    line-height: 140%;
+  }
+  .exporter-data {
+    padding: 10px 15px;
+  }
+  .export-page .about-section {
+    padding-top: 60px;
+  }
+
+
 }
 
 
@@ -2304,6 +2518,9 @@
   .btn-stroke:hover {
     background: #b8213c;
     color: #fff;
+  }
+  .btn-stroke:hover .icon-arrow-right {
+    background: url("../img/icon/arrow-right-white.svg") no-repeat center/contain;
   }
   .btn-danger:hover {
     border-color: #b8213c;
