@@ -12,104 +12,242 @@
 <body>
 
 <div class="main-wrapper">
-  <div class="header">
-    <div class="container">
-      <div class="header-top">
-        <a href="/" class="logo">
-          <img src="img/logo/logo.svg" alt="Логотип">
-        </a>
-        <div class="header-contacts">
-          <a href="tel:+74951010767" class="header-phone">+ 7 495 10 10 767</a>
-          <a href="mailto:sales177@mwlogistics.kz" class="header-email">sales177@mwlogistics.kz</a>
-        </div>
-        <button class="btn btn-sm btn-stroke header-feedback-btn" data-toggle="modal" data-target="#form2">Оставить
-          заявку
-        </button>
-        <button class="btn-plain toggle-mobile-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-      <div class="header-main">
-        <div class="header-main-inner">
-          <ul class="main-nav">
-            <li class="main-nav-item">
-              <a class="main-nav-link" href="/">Главная</a>
-            </li>
-            <li class="main-nav-item dropdown">
-              <a class="main-nav-link" href="#">О нас</a>
-              <div class="dropdown-content">
-                <a class="dropdown-link" href="about.html">О компании</a>
-                <a class="dropdown-link" href="vacancy.html">Вакансии</a>
-                <a class="dropdown-link" href="contact.html">Контакты</a>
-              </div>
-            </li>
-            <li class="main-nav-item dropdown">
-              <a class="main-nav-link" href="#">Услуги</a>
-              <div class="dropdown-content">
-                <a class="dropdown-link" href="service-railway.html">Железнодорожные перевозки</a>
-                <a class="dropdown-link" href="service-multimodal.html">Мультимодальные перевозки</a>
-                <a class="dropdown-link" href="service-export.html">Экспорт</a>
-                <a class="dropdown-link" href="service-kazakhstan.html">ЖД перевозки по Казахстану</a>
-                <a class="dropdown-link" href="service-customs.html">Таможенные услуги</a>
-                <a class="dropdown-link" href="service-forwarding.html">Экспедирование грузов</a>
-                <a class="dropdown-link" href="service-forwarding.html">Контейнерные грузы</a>
-              </div>
-            </li>
-            <li class="main-nav-item">
-              <a class="main-nav-link" href="calculator.html">Калькулятор</a>
-            </li>
-            <li class="main-nav-item dropdown">
-              <a class="main-nav-link" href="#">География</a>
-              <div class="dropdown-content">
-                <a class="dropdown-link" href="geography-china.html">Китай</a>
-                <a class="dropdown-link" href="geography-turkey.html">Турция</a>
-              </div>
-            </li>
-            <li class="main-nav-item">
-              <a class="main-nav-link" href="cargo-types.html">Виды грузов</a>
-            </li>
-            <li class="main-nav-item dropdown">
-              <a class="main-nav-link" href="#">Блог</a>
-              <div class="dropdown-content">
-                <a class="dropdown-link" href="news.html">Новости и статьи</a>
-                <a class="dropdown-link" href="reference.html">Справочная информация</a>
-              </div>
-            </li>
-            <li class="main-nav-item">
-              <a class="main-nav-link" href="contact.html">Контакты</a>
-            </li>
-          </ul>
-          <ul class="switch-lang">
-            <li>
-              <a class="active" href="#">RU</a>
-            </li>
-            <li>
-              <a href="#">KZ</a>
-            </li>
-            <li>
-              <a href="#">UZ</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="page-wrapper main-page">
+  <div class="page-wrapper service-page container-page">
     <div class="promo">
       <div class="container">
         <div class="promo-caption">
-          <h1>Контейнерные перевозки в <br>Казахстан</h1>
-          <p>Собственными регулярными контейнерными поездами, <br>морскими линиями и авиатранспортом</p>
-          <button class="btn btn-danger btn-md" data-toggle="modal" data-target="#form1">Позвоните мне</button>
+          <ul class="breadcrumb">
+            <li>
+              <a href="/">Услуги</a>
+            </li>
+            <li>ЖД перевозки по Казахстану</li>
+          </ul>
+          <h1>Контейнерные <br>грузы</h1>
+          <ul class="promo-caption-detail">
+            <li>Прямые контракты с операторами железных дорог</li>
+            <li>Прямые контракты с морскими линиями</li>
+            <li>Контейнеры 20 DC и 40 НС</li>
+            <li>ГРаботаем только с юридическими лицами</li>
+          </ul>
         </div>
       </div>
       <div class="promo-animation">
-        <img class="bridge" src="img/main/promo-bg.png" alt="">
-        <img class="ship" src="img/main/ship.png" alt="">
-        <img class="train" src="img/main/train.png" alt="">
-        <img class="air-plane" src="img/main/air-plane.png" alt="">
+        <img class="container-bg" src="img/main/forwarding-bg.png" alt="изображение поездов">
+      </div>
+    </div>
+    <div class="country-section">
+      <div class="container">
+        <div class="section-title">
+          <h5>Доставляем на собственном оборудовании из 13 стран:</h5>
+        </div>
+        <div class="swiper country-slider">
+          <div class="swiper-wrapper country-card-list">
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/china.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag_china.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Китай</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                    <li class="danger">Экспорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/india.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-india.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Индия</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                    <li class="danger">Экспорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/thailand.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-thailand.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Тайланд</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/turkey.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-turkey.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Турция</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/indonesia.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-indonesia.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Индонезия</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/philippines.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-philippines.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Филлипины</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/malaysia.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-malaysia.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Малайзия</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/korea.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-korea.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Южная Корея</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/vietnam.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-vietnam.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Въетнам</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/singapore.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-singapore.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Сингапур</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/japan.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-japan.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Япония</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide country-card">
+              <div class="country-card-img">
+                <img src="img/content/pakistan.png" alt="фото государства">
+                <img class="country-card-flag" src="img/content/flag-pakistan.png" alt="флаг государтва">
+              </div>
+              <div class="country-card-caption">
+                <div class="country-card-caption-top">
+                  <div class="country-card-name">
+                    <p>Пакистан и ОАЭ</p>
+                  </div>
+                  <ul class="country-card-meta">
+                    <li class="success">Импорт</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination mobile-slider-pagination country-slider-pagination"></div>
+        </div>
       </div>
     </div>
     <div class="container">
@@ -142,79 +280,6 @@
             </div>
           </div>
         </form>
-      </div>
-    </div>
-    <div class="country-section">
-      <div class="container">
-        <div class="swiper country-slider">
-          <div class="swiper-wrapper country-card-list">
-            <div class="swiper-slide country-card">
-              <div class="country-card-img">
-                <img src="img/content/china.png" alt="фото государства">
-                <img class="country-card-flag" src="img/content/flag_china.png" alt="флаг государтва">
-              </div>
-              <div class="country-card-caption">
-                <div class="country-card-caption-top">
-                  <div class="country-card-name">
-                    <p>Китай</p>
-                  </div>
-                  <ul class="country-card-meta">
-                    <li class="success">Импорт</li>
-                    <li class="danger">Экспорт</li>
-                  </ul>
-                </div>
-                <ul class="country-card-detail">
-                  <li>Доставка контейнерных грузов 20 DC и 40 HC</li>
-                  <li>Формирование экспортных и импортных поездов</li>
-                </ul>
-              </div>
-            </div>
-            <div class="swiper-slide country-card">
-              <div class="country-card-img">
-                <img src="img/content/turkey.png" alt="фото государства">
-                <img class="country-card-flag" src="img/content/flag-turkey.png" alt="флаг государтва">
-              </div>
-              <div class="country-card-caption">
-                <div class="country-card-caption-top">
-                  <div class="country-card-name">
-                    <p>Турция</p>
-                  </div>
-                  <ul class="country-card-meta">
-                    <li class="success">Импорт</li>
-                  </ul>
-                </div>
-                <ul class="country-card-detail">
-                  <li>Доставка контейнерных грузов 20 DC и 40 HC</li>
-                  <li>Отправка из порта Стамбула</li>
-                </ul>
-              </div>
-            </div>
-            <div class="swiper-slide country-card">
-              <div class="country-card-img">
-                <img src="img/content/asia.png" alt="фото государства">
-                <img class="country-card-flag" src="img/content/flag-asia.png" alt="флаг государтва">
-              </div>
-              <div class="country-card-caption">
-                <div class="country-card-caption-top">
-                  <div class="country-card-name">
-                    <p>Юго-Восточная Азия</p>
-                  </div>
-                  <ul class="country-card-meta">
-                    <li class="success">Импорт</li>
-                    <li class="danger">Экспорт</li>
-                  </ul>
-                </div>
-                <div class="country-card-countries">
-                  <p>Япония, Китай, Тайланд, Малазия, Сингапур, Филлипины и т.д.</p>
-                </div>
-                <ul class="country-card-detail">
-                  <li>Доставка контейнерных грузов 20 DC и 40 HC</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination mobile-slider-pagination country-slider-pagination"></div>
-        </div>
       </div>
     </div>
     <div class="services-section">
@@ -379,7 +444,7 @@
               <div class="swiper-slide product-card">
                 <div class="product-card-img">
                   <span class="product-card-number">11</span>
-                  <img src="img/main/laptop-color.png" alt="изображение груза">
+                  <img src="" alt="изображение груза">
                 </div>
                 <div class="product-card-caption">
                   <p>Электротехнические товары</p>
@@ -388,7 +453,7 @@
               <div class="swiper-slide product-card">
                 <div class="product-card-img">
                   <span class="product-card-number">12</span>
-                  <img src="img/main/chemistry.png" alt="изображение груза">
+                  <img src="" alt="изображение груза">
                 </div>
                 <div class="product-card-caption">
                   <p>Бытовая и промышленная химия</p>
@@ -424,7 +489,7 @@
               <div class="swiper-slide product-card">
                 <div class="product-card-img">
                   <span class="product-card-number">16</span>
-                  <img src="img/main/balloon.png" alt="изображение груза">
+                  <img src="" alt="изображение груза">
                 </div>
                 <div class="product-card-caption">
                   <p>Опасные грузы <br>ADR</p>
@@ -433,7 +498,7 @@
               <div class="swiper-slide product-card">
                 <div class="product-card-img">
                   <span class="product-card-number">17</span>
-                  <img src="img/main/tomato.png" alt="изображение груза">
+                  <img src="" alt="изображение груза">
                 </div>
                 <div class="product-card-caption">
                   <p>Продукты питания</p>
@@ -558,174 +623,6 @@
         </div>
       </div>
     </div>
-    <div class="tariff-feedback-section">
-      <div class="container">
-        <div class="section-title">
-          <h5>Узнай свой тариф и условия доставки</h5>
-          <p>До станций Алматы, Нур-Султана, Павлодара и Шымкента</p>
-          <button class="btn btn-md btn-stroke" data-toggle="modal" data-target="#form1">Узнать тариф</button>
-        </div>
-        <div class="tariff-feedback-container">
-          <div class="tariff-feedback-container-left">
-            <div class="form-container">
-              <b>Личные данные</b>
-              <div class="form-control">
-                <input type="text" placeholder="Ваше имя">
-                <small>Error text</small>
-              </div>
-            </div>
-            <div class="form-control">
-              <input class="phone-mask" type="text" placeholder="Ваш телефон">
-              <small>Error text</small>
-            </div>
-            <div class="form-control">
-              <input type="email" placeholder="E-mail">
-              <small>Error text</small>
-            </div>
-            <div class="form-container">
-              <b>Город назначения</b>
-              <div class="form-control">
-                <input type="text" placeholder="Пример: Алматы">
-                <small>Error text</small>
-              </div>
-            </div>
-            <div class="form-container">
-              <b>Город отправки</b>
-              <div class="form-control">
-                <input type="text" placeholder="Пример: Пекин">
-                <small>Error text</small>
-              </div>
-            </div>
-          </div>
-          <div class="tariff-feedback-container-right">
-            <div class="form-container">
-              <b>Дополнительные услуги</b>
-              <div class="select-additional-services">
-                <div class="radio-form">
-                  Страховка
-                  <input type="checkbox">
-                  <span class="checkmark"></span>
-                </div>
-                <div class="radio-form">
-                  Таможенные услуги
-                  <input type="checkbox">
-                  <span class="checkmark"></span>
-                </div>
-                <div class="radio-form">
-                  Доставка до двери
-                  <input type="checkbox">
-                  <span class="checkmark"></span>
-                </div>
-              </div>
-            </div>
-            <div class="form-container">
-              <b>Описание груза</b>
-              <div class="form-control">
-                <textarea rows="5" placeholder="Пример: канцелярские товары"></textarea>
-                <small>Error text</small>
-              </div>
-            </div>
-            <div class="form-container">
-              <b>Объем или вес груза</b>
-              <div class="form-control">
-                <input type="text" placeholder="Пример: 1 контейнер/ 3 куба">
-                <small>Error text</small>
-              </div>
-            </div>
-            <div class="form-container">
-              <b>Загрузите файлы</b>
-              <div class="tariff-feedback-container-tools">
-                <div class="upload-form-container">
-                  <!--при загурзке файла добавляется класс "loaded" и менятеся стиль, js прописан внизу страницы-->
-                  <div class="upload-form">
-                    <input type="file">
-                    <i class="icon icon-plus"></i>
-                    <span>
-                      <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1.33337 4.33333L4.66671 7.66667L11.3334 1" stroke="#29417E" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span>
-                  </div>
-                  <div class="upload-form">
-                    <input type="file">
-                    <i class="icon icon-plus"></i>
-                    <span>
-                      <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1.33337 4.33333L4.66671 7.66667L11.3334 1" stroke="#29417E" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span>
-                  </div>
-                  <div class="upload-form">
-                    <input type="file">
-                    <i class="icon icon-plus"></i>
-                    <span>
-                      <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1.33337 4.33333L4.66671 7.66667L11.3334 1" stroke="#29417E" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span>
-                  </div>
-                </div>
-                <button class="btn btn-md btn-danger">Оставить заявку</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="about-section">
-      <div class="container">
-        <div class="section-title">
-          <h5>О компании ModernWay</h5>
-        </div>
-        <div class="swiper about-slider">
-          <div class="swiper-wrapper advantage-card-list">
-            <div class="swiper-slide advantage-card">
-              <img src="img/main/truck.png" alt="грузовик">
-              <b>Собственный транспорт</b>
-              <p>Modern Way Cross Border Logistics Rus – осуществляет доставку контейнеров собственными регулярными
-                контейнерными поездами, морским линиями и авиатранспортом</p>
-            </div>
-            <div class="swiper-slide advantage-card">
-              <img src="img/main/document.png" alt="планшет">
-              <b>Полный комплекс услуг</b>
-              <p>Мы предоставляем полный комплекс услуг по транспортной логистике: перевозка,
-                экспедирование,страхование, таможенное оформление и многое другое.</p>
-            </div>
-            <div class="swiper-slide advantage-card">
-              <img src="img/main/loader-red.png" alt="погрузчик">
-              <b>Собственное оборудование</b>
-              <p>Самостоятельно строим и корректируем маршруты, используем собственное оборудование.</p>
-            </div>
-            <div class="swiper-slide advantage-card">
-              <img src="img/main/box.png" alt="коробка">
-              <b>Работаем на результат</b>
-              <p>ModernWay помогает каждому клиенту решить поставленные задачи</p>
-            </div>
-          </div>
-          <div class="swiper-pagination mobile-slider-pagination about-slider-pagination"></div>
-        </div>
-      </div>
-    </div>
-    <div class="advantage-section">
-      <div class="container">
-        <div class="advantage-container">
-          <h6>Преимущества ModernWay в международных грузоперевозках</h6>
-          <ul class="advantage-container-list">
-            <li>Формируем собственные импортные и экспортные контейнерные поезда</li>
-            <li>Ежедневное отслеживание груза на всем маршруте</li>
-            <li>Осуществляем экспортные поставки через порты Дальнего Востока</li>
-            <li>Собственные склады консолидации</li>
-            <li>Собственный контейнерный парк 40 High Cube – более 6700</li>
-            <li>Офисы компании расположены в Китае, России, Узбекистане</li>
-            <li>Прямые контракты с КЖД и морскими линиями</li>
-          </ul>
-          <img src="img/main/advantage-bg.png" alt="">
-        </div>
-      </div>
-    </div>
     <div class="container">
       <div class="sub-container">
         <div class="row">
@@ -748,228 +645,6 @@
             </form>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="news-slider-section">
-      <div class="container">
-        <div class="section-title">
-          <h5>Актуальные новости и статьи</h5>
-        </div>
-        <div class="news-slider-wrapper">
-          <div class="swiper news-slider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide news-card">
-                <div class="news-card-img">
-                  <img src="img/main/pillow.png" alt="изображение груза">
-                </div>
-                <div class="news-card-caption">
-                  <div class="news-card-name">
-                    <p>Кто больше платит, тот больше едет – эксперт об экспортной политике в сфере ж/д перевозок</p>
-                  </div>
-                  <div class="news-card-bottom">
-                    <p class="news-card-date">27. 12. 22</p>
-                    <p class="news-card-view">2470</p>
-                    <a href="" class="news-card-link">
-                      Читать полностью
-                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.5 3L8.785 3.6965L12.575 7.5H2.5V8.5H12.575L8.785 12.2865L9.5 13L14.5 8L9.5 3Z"
-                              fill="#252831"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide news-card">
-                <div class="news-card-img">
-                  <img src="img/main/pillow.png" alt="изображение груза">
-                </div>
-                <div class="news-card-caption">
-                  <div class="news-card-name">
-                    <p>Кто больше платит, тот больше едет – эксперт об экспортной политике в сфере ж/д перевозок</p>
-                  </div>
-                  <div class="news-card-bottom">
-                    <p class="news-card-date">27. 12. 22</p>
-                    <p class="news-card-view">2470</p>
-                    <a href="" class="news-card-link">
-                      Читать полностью
-                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.5 3L8.785 3.6965L12.575 7.5H2.5V8.5H12.575L8.785 12.2865L9.5 13L14.5 8L9.5 3Z"
-                              fill="#252831"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide news-card">
-                <div class="news-card-img">
-                  <img src="img/main/pillow.png" alt="изображение груза">
-                </div>
-                <div class="news-card-caption">
-                  <div class="news-card-name">
-                    <p>Кто больше платит, тот больше едет – эксперт об экспортной политике в сфере ж/д перевозок</p>
-                  </div>
-                  <div class="news-card-bottom">
-                    <p class="news-card-date">27. 12. 22</p>
-                    <p class="news-card-view">2470</p>
-                    <a href="" class="news-card-link">
-                      Читать полностью
-                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.5 3L8.785 3.6965L12.575 7.5H2.5V8.5H12.575L8.785 12.2865L9.5 13L14.5 8L9.5 3Z"
-                              fill="#252831"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide news-card">
-                <div class="news-card-img">
-                  <img src="img/main/pillow.png" alt="изображение груза">
-                </div>
-                <div class="news-card-caption">
-                  <div class="news-card-name">
-                    <p>Кто больше платит, тот больше едет – эксперт об экспортной политике в сфере ж/д перевозок</p>
-                  </div>
-                  <div class="news-card-bottom">
-                    <p class="news-card-date">27. 12. 22</p>
-                    <p class="news-card-view">2470</p>
-                    <a href="" class="news-card-link">
-                      Читать полностью
-                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.5 3L8.785 3.6965L12.575 7.5H2.5V8.5H12.575L8.785 12.2865L9.5 13L14.5 8L9.5 3Z"
-                              fill="#252831"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="news-slider-prev">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32.8125 40.625L17.1875 25L32.8125 9.375" stroke="black" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <div class="news-slider-next">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17.1875 9.375L32.8125 25L17.1875 40.625" stroke="black" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-        </div>
-        <div class="swiper-pagination mobile-slider-pagination news-slider-pagination"></div>
-        <a href="#" class="btn btn-md btn-stroke news-section-link">Перейти ко всем новостям</a>
-      </div>
-    </div>
-    <div class="client-section">
-      <div class="container">
-        <div class="section-title">
-          <h5>Наши партнеры</h5>
-        </div>
-        <div class="client-slider-wrapper">
-          <div class="swiper client-slider" id="partnerSlider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/teach-team.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/tvoy-dom.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/zitrek.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/varton.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/partner.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/revada.png" alt="логотип партнера">
-              </div>
-            </div>
-          </div>
-          <div class="client-slider-prev" id="partnerSliderPrev">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32.8125 40.625L17.1875 25L32.8125 9.375" stroke="black" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <div class="client-slider-next" id="partnerSliderNext">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17.1875 9.375L32.8125 25L17.1875 40.625" stroke="black" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-        </div>
-        <div class="client-arrows-xs">
-          <span class="client-arrow" id="partnerSliderPrevXs">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32.8125 40.625L17.1875 25L32.8125 9.375" stroke="#9C9C9C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-          <span class="client-arrow" id="partnerSliderNextXs">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17.1875 9.375L32.8125 25L17.1875 40.625" stroke="#B8213C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="client-section">
-      <div class="container">
-        <div class="section-title">
-          <h5>Наши клиенты</h5>
-        </div>
-        <div class="client-slider-wrapper">
-          <div class="swiper client-slider" id="clientSlider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/teach-team.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/tvoy-dom.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/zitrek.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/varton.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/partner.png" alt="логотип партнера">
-              </div>
-              <div class="swiper-slide client-slider-item">
-                <img src="img/content/revada.png" alt="логотип партнера">
-              </div>
-            </div>
-          </div>
-          <div class="client-slider-prev" id="clientSliderPrev">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32.8125 40.625L17.1875 25L32.8125 9.375" stroke="black" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <div class="client-slider-next" id="clientSliderNext">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17.1875 9.375L32.8125 25L17.1875 40.625" stroke="black" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-        </div>
-        <div class="client-arrows-xs">
-          <span class="client-arrow" id="clientSliderPrevXs">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M32.8125 40.625L17.1875 25L32.8125 9.375" stroke="#9C9C9C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-          <span class="client-arrow" id="clientSliderNextXs">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17.1875 9.375L32.8125 25L17.1875 40.625" stroke="#B8213C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </div>
-        <button class="btn btn-md btn-danger client-btn" data-toggle="modal" data-target="#form1">Стать клиентом</button>
       </div>
     </div>
     <div class="faq-section">
@@ -1070,99 +745,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="footer-main">
-      <div class="container">
-        <div class="footer-row">
-          <div class="footer-col">
-            <div class="footer-col-title">
-              <p>Контакты</p>
-            </div>
-            <ul class="footer-col-list">
-              <li>
-                <p>Адрес: БЦ "Ростэк", Москва, <br>Проезд Завода Серп и молот, д. 6, к. 1</p>
-              </li>
-              <li>
-                <p>График работы офиса: <br>ПН-ЧТ с 9:00 до 18:00 <br>ПТ с 9:00 до 16:45</p>
-              </li>
-              <li>
-                <a class="underline" href="tel:+74951010767">+7 (495) 10 10 767</a>
-                <a class="underline" href="mailto:sales29@mwlogistics.ru">sales29@mwlogistics.ru</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <div class="footer-col-title">
-              <p>Услуги</p>
-            </div>
-            <ul class="footer-col-list">
-              <li>
-                <a href="#">Контейнерные перевозки</a>
-              </li>
-              <li>
-                <a href="#">Мультимодальные перевозки</a>
-              </li>
-              <li>
-                <a href="#">Железнодорожные перевозки</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <div class="footer-col-title">
-              <p>Клиентам</p>
-            </div>
-            <ul class="footer-col-list">
-              <li>
-                <a href="#">О компании</a>
-              </li>
-              <li>
-                <a href="#">Контакты</a>
-              </li>
-              <li>
-                <a href="#">Информация о доставке</a>
-              </li>
-              <li>
-                <a href="#">Информация об оплате</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <div class="footer-col-title">
-              <p>Справка</p>
-            </div>
-            <ul class="footer-col-list">
-              <li>
-                <a href="#">Справочная информация</a>
-              </li>
-              <li>
-                <a href="#">Новости и статьи</a>
-              </li>
-              <li>
-                <a href="#">География перевозок</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <div class="footer-col-title">
-              <p>Учредительные документы</p>
-            </div>
-            <ul class="footer-col-list">
-              <li>
-                <a class="underline" href="#">Политика конфиденциальности</a>
-              </li>
-              <li>
-                <a class="underline" href="#">Договор</a>
-              </li>
-            </ul>
-            <button class="footer-callback" data-toggle="modal" data-target="#form1">Перезвоните мне</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <p>© Copyright by ModernWay 2022-2023. Все права защищены</p>
     </div>
   </div>
 </div>
@@ -1330,102 +912,6 @@
     }
   });
 
-  //news slider
-  new Swiper(".news-slider", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 1,
-    loop: true,
-    navigation: {
-      nextEl: ".news-slider-next",
-      prevEl: ".news-slider-prev",
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        pagination: {
-          el: '.news-slider-pagination',
-        }
-      },
-      768: {
-        slidesPerView: 3,
-        slidesPerGroup: 1,
-        pagination: false,
-      }
-    }
-  });
-
-  //partner slider
-  new Swiper("#partnerSlider", {
-    slidesPerView: 6,
-    spaceBetween: 50,
-    loop: true,
-    navigation: {
-      nextEl: "#partnerSliderNext",
-      prevEl: "#partnerSliderPrev",
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-        navigation: {
-          nextEl: "#partnerSliderNextXs",
-          prevEl: "#partnerSliderPrevXs",
-        },
-      },
-      768: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-        navigation: {
-          nextEl: "#partnerSliderNext",
-          prevEl: "#partnerSliderPrev",
-        },
-      },
-      992: {
-        slidesPerView: 5,
-        spaceBetween: 40
-      },
-      1200: {
-        slidesPerView: 6,
-        spaceBetween: 50
-      }
-    }
-  });
-
-  //client slider
-  new Swiper("#clientSlider", {
-    slidesPerView: 6,
-    spaceBetween: 50,
-    loop: true,
-    navigation: {
-      nextEl: "#clientSliderNext",
-      prevEl: "#clientSliderPrev",
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-        navigation: {
-          nextEl: "#clientSliderNextXs",
-          prevEl: "#clientSliderPrevXs",
-        },
-      },
-      768: {
-        slidesPerView: 4,
-        spaceBetween: 40
-      },
-      992: {
-        slidesPerView: 5,
-        spaceBetween: 40
-      },
-      1200: {
-        slidesPerView: 6,
-        spaceBetween: 50
-      }
-    }
-  });
-
   //accordion collapse
   $('.faq-card-header').click(function () {
     $('.faq-card-link').removeClass('open');
@@ -1452,13 +938,6 @@
         spaceBetween: 30,
         pagination: {
           el: '.service-slider-pagination',
-        }
-      });
-      new Swiper(".about-slider", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        pagination: {
-          el: '.about-slider-pagination',
         }
       });
     }

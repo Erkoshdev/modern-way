@@ -204,7 +204,34 @@
     font-size: 12px;
     line-height: 140%;
   }
-
+  .kaz-page .about-section {
+    margin-top: 90px;
+  }
+  .kaz-page .faq-section {
+    margin-top: 120px;
+  }
+  .customs-bg {
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
+  .customs-page .description-container {
+    margin-top: 60px;
+  }
+  .container-page .faq-section {
+    margin-top: 90px;
+  }
+  .not-found-container {
+    flex-direction: column;
+    padding: 60px 0 80px 0;
+  }
+  .not-found-img {
+    order: 1;
+  }
+  .not-found-caption {
+    order: 2;
+    margin-top: 60px;
+  }
 }
 
 
@@ -844,7 +871,87 @@
   .export-page .about-section {
     padding-top: 80px;
   }
-
+  .trains-bg {
+    width: 100%;
+    height: auto;
+    margin-left: 70px;
+  }
+  .special-conditions .promo-card-caption {
+    padding: 20px;
+  }
+  .special-conditions .promo-card-caption h6 {
+    font-size: 20px;
+  }
+  .kaz-page .about-section {
+    margin-top: 70px;
+  }
+  .customs-bg {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .customs-page .description-container {
+    margin-top: 60px;
+  }
+  .notice-container {
+    padding: 40px;
+  }
+  .customs-page .notice-container {
+    margin-top: 70px;
+  }
+  .customs-payments-card-list {
+    flex-wrap: wrap;
+  }
+  .customs-payments-card {
+    width: calc(50% - 30px);
+    margin: 15px;
+  }
+  .customs-page .sub-container {
+    margin-top: 70px;
+  }
+  .forwarding-bg {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .forwarding-page .promo-caption {
+    padding-bottom: 120px;
+  }
+  .container-page .country-card {
+    flex-direction: column;
+  }
+  .container-page .country-card-img {
+    width: 100%;
+  }
+  .container-page .country-card-caption {
+    padding: 15px;
+  }
+  .container-page .country-card-name p {
+    font-size: 16px;
+  }
+  .container-page .country-section {
+    padding-bottom: 80px;
+  }
+  .container-page .services-section {
+    margin-top: 60px;
+  }
+  .container-page .containers-section {
+    padding-top: 0;
+  }
+  .container-page .sub-container {
+    margin-top: 60px;
+  }
+  .not-found-container {
+    flex-direction: column;
+    padding: 60px 0 80px 0;
+  }
+  .not-found-img {
+    order: 1;
+  }
+  .not-found-caption {
+    order: 2;
+    margin-top: 60px;
+  }
 }
 
 
@@ -2508,8 +2615,128 @@
   .export-page .about-section {
     padding-top: 60px;
   }
-
-
+  .trains-bg {
+    width: 100%;
+    height: auto;
+    margin-top: -30px;
+  }
+  .city-list li {
+    margin: 7.5px;
+    padding: 7px 14px;
+  }
+  .city-list {
+    margin: -7.5px;
+  }
+  .special-conditions {
+    margin-top: 60px;
+  }
+  .special-conditions .promo-card-caption {
+    padding: 20px;
+  }
+  .kaz-page .faq-section {
+    margin-top: 60px;
+  }
+  .customs-bg {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: initial;
+  }
+  .notice-container {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .notice-container-img {
+    order: 1;
+  }
+  .notice-container-caption {
+    order: 2;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .notice-container-caption b {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
+  .customs-page .notice-container {
+    margin-top: 60px;
+  }
+  .customs-page .stage-section {
+    margin-top: 80px;
+  }
+  .customs-payments {
+    margin-top: 80px;
+  }
+  .customs-payments-card-list {
+    width: 100%;
+    margin: 0;
+  }
+  .customs-payments-card {
+    margin: 0;
+  }
+  .customs-page .sub-container {
+    margin-top: 80px;
+  }
+  .forwarding-bg {
+    width: 100%;
+    height: auto;
+    margin-top: -30px;
+  }
+  .forwarding-page .promo-caption {
+    padding-bottom: 30px;
+  }
+  .forwarding-page .about-section {
+    margin-top: 30px;
+  }
+  .forwarding-page .sub-container {
+    margin-top: 70px;
+  }
+  .container-bg {
+    width: 100%;
+    height: auto;
+  }
+  .container-page .country-card-list {
+    flex-wrap: initial;
+  }
+  .container-page .containers-section {
+    padding-top: 0;
+  }
+  .container-page .sub-container {
+    margin-top: 40px;
+  }
+  .container-page .faq-section {
+    margin-top: 50px;
+  }
+  .not-found-container {
+    flex-direction: column;
+    padding: 60px 0 80px 0;
+  }
+  .not-found-img {
+    order: 1;
+  }
+  .not-found-caption {
+    order: 2;
+    margin-top: 60px;
+  }
+  .not-found-img img {
+    width: 100%;
+  }
+  .not-found-title {
+    font-size: 24px;
+    line-height: 140%;
+  }
+  .not-found-desc {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .not-found-caption .btn-danger {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .page-links li {
+    margin: 6px;
+  }
 }
 
 
@@ -2543,6 +2770,7 @@
   .news-card-link:hover svg path {
     fill: #B8213C;
   }
+
 
 
 }

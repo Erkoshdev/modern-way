@@ -3329,7 +3329,370 @@ body {
   height: 18px;
 }
 
+.kaz-page .promo-caption {
+  max-width: 600px;
+}
 
+.trains-bg {
+  margin-top: 50px;
+}
+
+.kaz-page .promo-card-section .section-title {
+  margin-bottom: 55px;
+}
+
+.city-promo .promo-card-caption {
+  padding: 35px 50px;
+  min-height: 205px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.city-promo-list {
+  margin-bottom: 60px;
+}
+
+.city-list {
+  margin: -10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 940px;
+}
+
+.city-list li {
+  border: 1px solid #B8213C;
+  border-radius: 100px;
+  padding: 15px 25px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #B8213C;
+  margin: 10px;
+}
+
+.kaz-page .feedback-card {
+  .form-control + .form-control {
+    margin-top: 20px;
+  }
+  .feedback-card-form {
+    margin-top: 35px;
+  }
+}
+
+.kaz-page .container-card {
+  ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+  ul li + li {
+    margin-left: 50px;
+  }
+  ul p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #7A7A7A;
+    margin: 0;
+  }
+  ul b {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #252831;
+    margin-bottom: 5px;
+    display: block;
+  }
+}
+
+.container-card-promo {
+  padding-bottom: 0;
+}
+
+.special-conditions {
+  margin-top: 150px;
+}
+
+.special-conditions {
+  .promo-card-caption {
+    padding: 50px 70px;
+    min-height: 295px;
+    justify-content: flex-end;
+  }
+  .promo-card-caption .btn-stroke-white {
+    margin-top: 30px;
+  }
+}
+
+.kaz-page .service-container {
+  margin-top: 60px;
+}
+
+.customs-bg {
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+}
+
+.notice-container {
+  display: flex;
+  background: #FFFFFF;
+  align-items: center;
+  padding: 40px 100px;
+}
+
+.notice-container-caption {
+  width: 65%;
+}
+
+.notice-container-caption b {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 135%;
+  color: #252831;
+}
+
+.notice-container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.notice-container-img img {
+  display: block;
+}
+
+.customs-page .notice-container {
+  margin-top: 140px;
+}
+
+.customs-page .stage-section {
+  margin-top: 120px;
+}
+
+.customs-payments {
+  margin-top: 120px;
+}
+
+.customs-payments-card-list {
+  display: flex;
+  margin: 0 -15px;
+  width: calc(100% + 30px);
+}
+
+.customs-payments-card {
+  width: calc(25% - 30px);
+  margin: 0 15px;
+  background: #FFFFFF;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.customs-payments-card b {
+  margin-top: 35px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  text-align: center;
+  color: #252831;
+  margin-bottom: 18px;
+}
+
+.customs-payments-card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
+  color: #252831;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.customs-payments-card p + p {
+  margin-top: 15px;
+}
+
+.customs-payments-card p span {
+  color: #B8213C;
+  font-size: 45px;
+  line-height: 19px;
+  display: inline-block;
+  height: fit-content;
+}
+
+.brackets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.brackets:before {
+  content: '';
+  background: url("../img/icon/bracket-left.png") no-repeat center/contain;
+  height: calc(100% + 30px);
+  width: 25px;
+  position: absolute;
+  top: -20px;
+  left: -25px;
+}
+
+.brackets:after {
+  content: '';
+  background: url("../img/icon/bracket-right.png") no-repeat center/contain;
+  height: calc(100% + 30px);
+  width: 25px;
+  position: absolute;
+  top: -20px;
+  right: -25px;
+}
+
+.customs-payments-card p + .brackets {
+  margin-top: 15px;
+}
+
+.customs-payments-card .brackets + p {
+  margin-top: 15px;
+}
+
+.customs-page .sub-container {
+  margin-top: 100px;
+}
+
+.customs-page .description-container {
+  margin-top: 60px;
+}
+
+.forwarding-page .promo-caption {
+  padding-bottom: 225px;
+}
+
+.forwarding-page .description-container {
+  margin-top: 60px;
+}
+
+.forwarding-page .about-section {
+  margin-top: 60px;
+}
+
+.forwarding-page {
+  .advantage-card {
+    justify-content: flex-start;
+  }
+  .advantage-card-lg b {
+    margin-bottom: 45px;
+  }
+}
+
+.forwarding-page .sub-container {
+  margin-top: 100px;
+}
+
+.container-page .country-card {
+  width: calc(33.3% - 30px);
+  margin: 15px;
+  height: auto;
+}
+
+.container-page .country-card-img {
+  height: 180px;
+}
+
+.container-page .country-card-caption {
+  padding: 23px 20px 30px 35px;
+}
+
+.container-page .country-card-name p {
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.container-page .country-card-list {
+  flex-wrap: wrap;
+}
+
+.not-found-page .page-content {
+  height: 100%;
+}
+
+.not-found-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 134px 0 119px 65px;
+}
+
+.not-found-title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 65px;
+  color: #252831;
+}
+
+.not-found-desc {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #252831;
+}
+
+.not-found-caption .btn-danger {
+  margin-top: 40px;
+}
+
+.page-links {
+  margin-top: 25px;
+}
+
+.page-links p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #252831;
+}
+
+.page-links ul {
+  margin: 11px -10px -6px -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-links li {
+  margin: 6px 10px;
+}
+
+.page-links a {
+  padding: 7.5px 16px;
+  border: 1px solid #7A7A7A;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #7A7A7A;
+}
+
+.page-links a:hover {
+  color: #7A7A7A;
+}
 
 
 @import "media";
