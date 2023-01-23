@@ -1420,6 +1420,56 @@ body {
   max-width: 380px;
 }
 
+#form3 .form-control {
+  margin-bottom: 14px;
+}
+
+.form3-tools {
+  margin: 40px auto 0 auto;
+  width: 360px;
+}
+
+.form3-tools .btn {
+  margin: 0 auto;
+}
+
+.form3-tools .privacy-policy-link {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#form4 .form-control {
+  margin-bottom: 30px;
+}
+
+#form4 .select-services {
+  display: flex;
+}
+
+#form4 .select-services .radio-form {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+#form4 .select-services:first-child {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.form4-tools {
+  margin-top: 52px;
+}
+
+.form4-tools .btn {
+  margin: 0 auto;
+}
+
+.form4-tools .privacy-policy-link {
+  margin: 27px auto 0 auto;
+  text-align: center;
+}
+
+
 .client-arrows-xs {
   display: none;
 }
@@ -2910,7 +2960,7 @@ body {
   margin-bottom: 160px;
 }
 
-.product-grid .product-card {
+.cargo-types-page .product-grid .product-card {
   height: initial;
   min-height: 266px;
   min-width: 25%;

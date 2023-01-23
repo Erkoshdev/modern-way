@@ -2495,7 +2495,7 @@
   .service-page .promo-animation {
     position: static;
   }
-  .promo-caption {
+  .service-page .promo-caption {
     padding: 65px 0 30px 0;
   }
   .country-list .col + .col {
@@ -2769,6 +2769,11 @@
   }
   .news-card-link:hover svg path {
     fill: #B8213C;
+  }
+  .export-page .promo-card-caption .btn-danger:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #B8213C;
   }
 
 
