@@ -82,6 +82,9 @@ body {
   .dropdown-content {
     display: block;
   }
+  .dropdown-content.lg-dropdown {
+    display: flex;
+  }
 }
 
 .main-nav-link {
@@ -125,6 +128,14 @@ body {
   padding: 30px 40px 40px 40px;
 }
 
+.dropdown-content.lg-dropdown {
+  left: calc(50% + 30px);
+}
+
+.dropdown-content .dropdown-content-col + .dropdown-content-col {
+  margin-left: 40px;
+}
+
 .dropdown-link {
   font-weight: 500;
   font-size: 14px;
@@ -132,6 +143,10 @@ body {
   color: #252831;
   white-space: nowrap;
   display: inline-block;
+}
+
+.dropdown-link.dropdown-link-title {
+  color: #7A7A7A;
 }
 
 .dropdown-link + .dropdown-link {
